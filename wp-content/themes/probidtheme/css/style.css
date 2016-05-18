@@ -1,0 +1,104 @@
+/*
+Theme Name: probidtheme
+Theme URI: http://probidtheme.com
+Description: A theme for WordPress
+Version: 1.0
+Author: KTA
+Author URI: http://www.Probidtheme.com
+*/
+
+.container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+/* CUSTOM STYLES */
+
+/*--fonts--*/
+
+@font-face {
+    font-family:'Raleway-Regular';
+    src:url('../fonts/Raleway-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family:'Raleway-Bold';
+    src:url('../fonts/Raleway-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+@font-face {
+    font-family:'OpenSans-Bold_gdi';
+    src:url('../fonts/OpenSans-Bold_gdi.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+@font-face {
+    font-family:'BigJohn';
+    src:url('../fonts/BigJohn.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+}
+
+
+
+*{
+    margin: 0; padding: 0;
+}
+.top-header{background: #cdd0d1; padding-top: 27px; padding-bottom: 19px;text-align: center; position: relative;}
+.top-header p{font-family: 'Raleway-Regular'; font-size: 27px; text-transform: uppercase;margin: 0px;}
+.top-header p span{font-family: 'Raleway-Bold';}
+
+.footer-menufooter-menu ul{margin: 0; padding: 0; list-style: none;}
+.footer-menu ul li{display: inline;}
+.footer-menu ul li a{display:inline-block;padding:10px;text-transform:uppercase}
+.footer-menu ul li a:hover{}
+.footer-menu{margin-top:40px;margin-bottom: -17px !important;}
+
+#menu{background: #222222; padding-top: 11px; padding-bottom: 11px;position: relative;}
+#nav ul{margin: 0; padding: 0; list-style:none;}
+#nav ul li{display: inline; float: left}
+#nav ul li a{display:inline-block;padding:10px;}
+#nav ul li a:hover{padding:10px;}
+#nav li{float: left; list-style: none;padding:15px;display: table;}
+#nav a{color:#d4d8d9; text-transform: uppercase; font-family: 'Raleway-Bold'; font-size: 18px; padding:10px;}
+#nav a:hover{color: #fe5a44; text-decoration: none; background: #000000;padding:10px;}
+.navbar {margin-bottom: 0px;}
+
+.formhome{background: url("../images/formbg.png") no-repeat top right; width: 341px; height: 100%; position: absolute; top:25px; right:100px;}
+.formhomeinner{padding: 23px 47px;}
+.formhomeinnertop{}
+.formhomeinnertop h3{font-family: 'OpenSans-Bold_gdi'; font-size: 30px; text-transform: uppercase; text-align: center; color: #fff; }
+.formhomeinnertop h2{font-family: 'BigJohn'; font-size: 48px;text-transform: uppercase;text-align: center;  color: #fb4a32;}
+
+
+
+
+
+
+
+
+
+
+
+
+.bg-unit ul{margin: 0; padding: 0; list-style: none;}
+.bg-unit li{list-style: none;}
+.bg-unit a{text-decoration: none;}
+.bg-unit{background-color:#DDD ; width: 244px; margin-right: 29px; border-radius: 11px; padding-bottom: 8px;}
+.span-main{margin-bottom: 25px;}

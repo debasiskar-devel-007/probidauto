@@ -1,0 +1,96 @@
+/*
+Theme Name: probidtheme
+Theme URI: http://probidtheme.com
+Description: A theme for WordPress
+Version: 1.0
+Author: KTA
+Author URI: http://www.Probidtheme.com
+*/
+
+@media(max-width:1900px){
+
+}
+
+@media(max-width:1820px) {
+}
+
+
+@media(max-width:1755px){
+
+}
+
+@media(max-width:1680px){
+
+}
+
+@media(max-width:1666px){
+}
+
+@media(max-width:1600px){
+}
+
+@media(max-width:1400px){
+  }
+
+@media(max-width:1366px){
+    .formhome{background: none; background-color: #000; position: relative; right: 0px; width: 100%;}
+}
+
+@media(max-width:1280px){
+}
+
+@media(max-width:1260px){
+}
+
+
+@media(max-width:1200px){
+}
+
+@media(max-width:1199px){
+}
+
+@media(max-width:1100px){
+
+}
+@media(max-width:1024px){
+ }
+
+@media(max-width:991px){
+    .top-header{padding-left: 15px; padding-right: 15px;}
+    #nav li {display: block; width: 100%; text-align: center;}
+
+}
+
+@media(max-width:767px){
+}
+
+@media(max-width:683px){
+}
+
+@media screen and (max-width:640px){
+}
+
+@media only screen and (min-device-width: 565px) and (max-device-width: 639px){
+}
+
+@media(max-width:560px){
+}
+
+@media screen and (max-width:480px){
+}
+
+@media(max-width:450px){
+}
+
+@media(max-width:400px){
+}
+
+@media(max-width:371px){
+}
+
+@media screen and (max-width:320px){
+}
+
+@media print{
+}
+
