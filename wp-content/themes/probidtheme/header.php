@@ -13,24 +13,25 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11" />
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style.css">
+	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/style1.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/css/media.css">
 	<?php wp_head(); ?>
 </head>
 <body>
 <div class="container-fluid">
-	<div class="top-header text-center">
+	<div class="top-header">
 		<div class="row">
 			<p>EXPLODING ON THE SCENE JANUARY 2017 &#45; NOW IN DEALER <span>PRE-ENROLLMENT</span></p>
 		</div>
 	</div>
 	<div id="menu">
 		<div class="row">
-			<div class="col-lg-5 col-md-5 col-sm-12 col-xs-12">
-				<div class="logo text-center">
+			<div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+				<div class="logo text-right">
 					<a href="<?php bloginfo('home'); ?>"><img src="<?php echo get_template_directory_uri(); ?>/images/logo.png" alt=""></a>
 				</div>
 			</div>
-			<div class="col-lg-7 col-md-7 col-sm-12 col-xs-12">
+			<div class="col-lg-9 col-md-9 col-sm-12 col-xs-12">
 				<div class="navbar">
 					<div class="navbar-inner">
 						<?php

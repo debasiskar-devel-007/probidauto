@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" autoUpload="Always" serverName="probidauto" promptOnLocalOverwrite="false">
+    <serverData>
+      <paths name="influxiq">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+      <paths name="probidauto">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/public_html/projects/probid" local="$PROJECT_DIR$" web="/home/influxiq/public_html/projetcs/probid" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+    <option name="myAutoUpload" value="ALWAYS" />
+  </component>
+</project>

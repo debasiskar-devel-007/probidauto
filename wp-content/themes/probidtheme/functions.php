@@ -44,25 +44,16 @@ include_once( 'includes/breadcoumb.php' );
 	function bilanti_widget_areas() {
 
 		
-   	    /* register_sidebar( array(
-			'name' => __( 'Promo Sidebar Welcome', 'bilanti' ),
-			'id' => 'promo',
-			'before_widget' => '<div class="span4">',
-	        'after_widget' => '</div>',
-	        'before_title' => '<h2 >',
-	        'after_title' => '</h2>',
+   	 register_sidebar( array(
+			'name' => __( 'slider', 'bilanti' ),
+			'id' => 'slider',
+			'before_widget' => '',
+	        'after_widget' => '',
+	        'before_title' => '',
+	        'after_title' => '',
 	    ) );
-		
-		
-   	    register_sidebar( array(
-			'name' => __( 'Page Left Sidebar', 'bilanti' ),
-			'id' => 'left_sidebar',
-			'before_widget' => '<div class="span4 bg-unit">',
-	        'after_widget' => '</div>',
-	        'before_title' => '<h2>',
-	        'after_title' => '</h2>',
-	    ) );
-		*/
+
+
 
 	}
 	add_action('widgets_init', 'bilanti_widget_areas');
