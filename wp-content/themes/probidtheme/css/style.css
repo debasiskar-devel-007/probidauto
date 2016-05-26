@@ -646,8 +646,7 @@ textarea {
 .revolutionbottom h3 span{color:#fb4a32; font-size: 60px; }
 
 
-.benefittop{background-color: #fb4a32; padding-top: 22px; padding-bottom: 16px;text-align: left; width: 100%;
-    padding-left: 38px;}
+.benefittop{background-color: #fb4a32; padding-top: 20px; padding-bottom: 20px;text-align: left; width: 100%; padding-left: 38px;}
 .benefittop h2{color:#fff; font-family: 'Raleway-Black'; text-shadow: 2px 2px 2px #000; font-size: 48px;margin-top: 0;}
 .benefitbottom{background: url(../images/benefitbg.jpg) no-repeat left top; height: 1152px; margin: 0; padding: 0; padding-top: 18px;  text-align: center; background-size:cover;position: relative;}
 .benefitbottom ul{ width:100%;  margin-bottom:20px; margin-top:20px; overflow:hidden;padding-left: 15px; padding-right: 15px;}
@@ -698,8 +697,8 @@ textarea {
 .autosearch .hover-bg img{margin-top: -67px; margin-left: auto; margin-right: auto;}
 
 .newmillinium{position: relative; margin-top: 60px;}
-.newmilliniummaintop h3 {font-size: 48px; color: #000; margin: 0px 0px 31px 0px; font-family: 'Raleway-Black';text-transform: uppercase;}
-.bottomleft {display: inline-block; position: relative; width: 40%; text-align: left; vertical-align: top;margin-right: 1%;}
+.newmilliniummaintop h3 {font-size: 48px; color: #000; margin: 0px 0px 31px 0px !important; padding: 0px; font-family: 'Raleway-Black';text-transform: uppercase;}
+.bottomleft {display: inline-block; position: relative; width: 40%; text-align: left; vertical-align: top; margin-right: 1%;}
 .bottomright{display: inline-block; position: relative; width: 55%;text-align: left;padding-left: 1%; }
 .bottomleft h3{color:#ff0167; font-family: 'Raleway-ExtraBold'; font-size: 30px; margin: 0;}
 .bottomleft p{color:#555e6b; font-family: 'Raleway-Medium'; font-size: 18px;padding-top: 14px;}
@@ -707,11 +706,12 @@ textarea {
 .bottomleft img{}
 .bottomright{border-left: 1px solid #c3c3c3; height: auto;}
 .bottomright h3{color:#555e6b;  font-family: 'Raleway-ExtraBold'; font-size: 30px; margin: 0;}
-.bottomright p{color:#555e6b; font-family: 'Raleway-Medium'; font-size: 18px;padding-top: 14px; margin-left: 1%;}
+.bottomright p{color:#555e6b; font-family: 'Raleway-Medium'; font-size: 18px; padding-top: 14px; margin-left: 1%;}
 .bottomright p span{color:#fb4a32; font-family: 'Raleway-Bold'; font-size: 24px; text-transform: uppercase;}
 .bottomright p span.span3{font-family: 'Raleway-ExtraBold'; font-size: 18px;color:#555e6b;}
 .newmilliniummain hr{background-color: #555e6b; border:none;  }
 .bottomright p:last-child{margin: 0px;}
+
 
 
 .smartbid{padding: 50px 0px 10px 0px;}
@@ -823,6 +823,7 @@ textarea {
 .joinrevolutioncontentleft {display: inline-block; position: relative; width: 40%; text-align: left; vertical-align: top;}
 .joinrevolutioncontentright{display: inline-block; position: relative; width: 59%;text-align: left;}
 
+.joinrevolutioncontent ul li img{padding-right: 10px !important;}
 
 .upcomingeventblock1{}
 .upcomingeventblock1 h2{color:#000000;font-size: 48px; margin: 0px; margin-top: 45px; padding: 0px; font-family: 'Raleway-Black'; text-transform: uppercase; max-width: 990px; margin-bottom:30px;}
@@ -833,11 +834,11 @@ textarea {
 .startdiv h4{font-size:36px; color:#fff; font-family: 'Raleway-Bold'; text-transform: uppercase;}
 .upcomingeventblock1 p{color:#393939; font-size: 24px; font-family: 'Raleway-Medium';}
 .upcomingeventblock1 p span{color:#ff0000;font-family: 'Raleway-Bold';}
-.upcomingeventblock1 p .upper{color: #ff0000 !important; font-family: 'Raleway-Bold';text-transform: uppercase; padding-top: 40px;}
+.upcomingeventblock1 .upper{color: #ff0000 !important; font-size: 24px; font-family: 'Raleway-Bold';text-transform: uppercase; padding-top: 10px;}
 
 
 .upcomingeventblock2{}
-.upcomingeventblock2 h2{background: #fb4a32 none repeat scroll 0 0; color: #ffffff; font-family: "Raleway-extrabold";font-size: 48px; margin: 26px 0 0; padding: 10px 5px; text-align: center; text-transform: uppercase;}
+.upcomingeventblock2 h2{background: #fb4a32 none repeat scroll 0 0; color: #ffffff; font-family: "Raleway-extrabold";font-size: 48px; margin: 26px 0 0; padding: 21px 5px; text-align: center; text-transform: uppercase;}
 
 
 .upcomingeventblock3{position: relative; overflow: hidden; height: 950px;padding-top: 38px; padding-bottom:24px; background-color:#ebebeb;}
@@ -846,7 +847,7 @@ textarea {
 .block2{background-color: #fff; position: relative; overflow: hidden; margin-right:12px; width: 42%; height:457px; border:1px solid #cfcfcf; margin-bottom:12px;}
 .block4, .block5, .block6{background-color: #fff; position: relative; overflow: hidden; width: 24%; margin-right:12px; height:370px; margin-bottom:12px; border:1px solid #cfcfcf;}
 .block7{background-color: #fff; position: relative; overflow: hidden; margin-right:0px; height:370px; margin-bottom:12px; border:1px solid #cfcfcf;}
-.block1 p, .block2 p, .block3 p, .block4 p, .block5 p, .block6 p, .block7 p{padding:2px 4px;color: #212121; font-family: "Raleway-semibold";font-size: 16px;} 
+.block1 p, .block2 p, .block3 p, .block4 p, .block5 p, .block6 p, .block7 p{padding:6px 4px;color: #212121; font-family: "Raleway-semibold";font-size: 16px;}
 
 .signup{font-family: "Raleway-semibold";font-size: 16px; text-transform:uppercase; border-radius:0;}
 .blue{background-color:#2299b3; color: #fff;}
@@ -869,8 +870,10 @@ textarea {
 .upcomingeventblock5 h2{color:#fff; font-size: 60px; font-family: 'Raleway-ExtraBold'; text-transform:uppercase; margin-left:446px; margin-top:0px; margin-bottom:0px;}
 .upcomingeventblock5 h4{color:#2299b3; font-family: "Raleway-semibold";font-size: 18px; text-transform:uppercase; margin-left:446px; margin-top:0px; margin-bottom:10px;}
 
-.upcomingeventblock5 p{color:#b0aeae;font-size: 16px; font-family: 'Raleway-Medium';}
+.upcomingeventblock5 p{color:#b0aeae;font-size: 16px; font-family: 'Raleway-Medium'; margin-left: 212px;}
 .upcomingeventblock5 p span{color:#fff;font-family: "Raleway-semibold";font-size: 20px;}
+.upcomingeventblock5 .preenroll{padding-top: 18px;}
+.upcomingeventblock5 p a{margin-top: -36px;}
 
 
 .upcomingeventblock6{margin: 37px 0px 37px 0px;}
@@ -879,10 +882,10 @@ margin-left: auto;margin-right: auto;width: 100%; margin:0px;}
 .upcomingeventblock6 h1 img{display:inline-block; border:0;}
 .upcomingeventblock6 h2{font-size: 60px; font-family: 'Raleway-Black'; color:#2299b3; margin:0px;}
 .car{position:relative;}
-.car img{position: absolute;float: left;margin-right: 35px;left: -85px;top: -105px;width: 37%;}
+.car img{position: absolute; float: left; margin-right: 35px; left: -74px; top: -43px;  width: 37%;}
 .car p{float: left;text-align: left;width: 68%;padding-top: 21px;font-family: 'OpenSans-Regular';font-size: 20px;margin-left: 32%;}
 .car p span{font-family:'OpenSans-Bold_gdi' font-size:22px;}
-.car p span .spanblue{font-family:'OpenSans-Bold_gdi' font-size:22px; color:#2299b3;}
+.car .spanblue{font-family:'OpenSans-Bold_gdi' font-size:22px; color:#2299b3;}
 
 
 .upcomingeventblock7{background:#fb4a32; padding:10px 0px 4px 0px; float:left; width:100%; clear:both;}
@@ -892,7 +895,7 @@ margin-bottom: 0px;}
 
 
 
-.upcomingeventblock8{padding: 44px 0px 44px 0px; clear:both; float:none;}
+.upcomingeventblock8{padding: 30px 0px 30px 0px; clear:both; float:none;}
 .upcomingeventblock8 .maincontentinner{ border-bottom:3px solid #c3c3c3;}
 .upcomingeventblock8 h2 {font-family:'OpenSans-Bold_gdi'; font-size:30px; color:#232323; text-transform:uppercase;margin-top: 0px;
 margin-bottom: 20px;}
@@ -911,13 +914,14 @@ margin-bottom: 20px;}
 .upcomingeventblock9 p{color:#252525;font-family: "Raleway-semibold";font-size: 18px;}
 .upcomingeventblock9 p span{color:#fb4a32; text-transform:uppercase;}
 .upcomingeventblock9 a{display:inline-block; float:left; margin-right:10px; padding-left: 53px; padding-right: 50px;}
+.upcomingeventblock9 .blockright a{height: 46px; line-height: 32px;}
 
-
-.contactusblock1{ background-color:#ebebeb;padding: 44px 0px 44px 0px;}
+.contactusblock1{ background-color:#ebebeb;padding: 20px 0px 15px 0px;}
 .contactusblock1 .maincontentinner{background:url(../images/img-border-contactus.png) repeat-x bottom left; }
 .contactusblock1 .logo{}
 .contactusblock1 h2{font-family: 'Raleway-Bold';font-size: 48px; color:#333333; margin-left: 40px;}
 
+.expertsblock9_body .container{padding-right: 0px; padding-left: 0px; margin-right: auto;  margin-left: auto;}
 
 .contactusblock2{position: relative; overflow: hidden; padding-top: 20px; padding-bottom:20px; background-color:#ebebeb;}
 .contactusblock2 .block1, .contactusblock2 .block2{background-color: #fff; position: relative; overflow: hidden;margin-right: 18px;width: 32.33%;height: 350px;
@@ -999,14 +1003,14 @@ border: 1px solid #cfcfcf;margin-bottom: 18px;}
 
 .howitworksblock7 .blockleft{margin-left: -54px;
     float: left;
-    height: 313px;
+    height: 310px;
     margin-top: 35px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
     width: 416px;}
 
-.howitworksblock7 .blockright{margin-right: 0px; float: right;height: 313px;
+.howitworksblock7 .blockright{margin-right: 0px; float: right;height: 310px;
     margin-top: 35px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
@@ -1100,6 +1104,7 @@ margin-top: 87px;}
 .howitworksblock13 .block13left p{padding:20px; font-size: 24px; color: #656363; font-family: 'Raleway-Medium';}
 .howitworksblock13 .block13right{}
 
+.expertsblock2 {padding: 0px 5px !important;}
 
 
 .howitworksblock14{margin:0px 0px 30px 0px;}
@@ -1120,7 +1125,7 @@ margin-top: 87px;}
 .footermenu{margin-top:0px;margin-bottom: 0px !important;}
 .footermenu p, .footermenu p a{color:#ffffff;font-size: 18px; font-family: 'Raleway-Regular'; text-transform: uppercase;}
 .footermenu p a:hover{color:#ffffff; text-decoration: underline;}
-#footer-menu .logo {padding-top: 10px;}
+#footer-menu .logo img {padding-top: 10px;}
 
 .wpcf7-form-control-wrap {
     position: inherit !important;
@@ -1132,3 +1137,6 @@ margin-top: 87px;}
 
 .formblock1, .formblock2, .formblock3{margin-bottom: 20px;}
 .formhomeinner p{display: none;}
+
+.howitworksblock4center img{padding-left: 40px; margin-top: -20px;}
+.howitworksblock5center img{padding-left: 40px; margin-top: -20px;}
